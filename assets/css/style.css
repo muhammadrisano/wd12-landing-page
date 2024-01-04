@@ -1,0 +1,142 @@
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif; 
+*/
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+#hero{
+  height: 100vh;
+  background-image: url('../images/bg-hero.png');
+  color: white;
+  line-height: 70px;
+}
+
+.container{
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.d-flex{
+  display: flex;
+  font-weight: 700;
+}
+.space-between{
+  justify-content: space-between;
+}
+.list-items{
+  display: flex;
+  list-style: none;
+}
+.list-items a{
+  text-decoration: none;
+  color: #4F5665;
+  padding: 10px 28px;
+  display: inline-block;
+}
+
+.item{
+  width: 50%;
+}
+.hero-title{
+  font-size: 50px;
+  font-family: 'Rubik', sans-serif;
+}
+.hero-content{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  font-family: 'Rubik', sans-serif;
+}
+.hero-button{
+  color: #6A4029;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #FFBA33;
+  border-width: 0;
+  padding: 20px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-family: 'Rubik', sans-serif;
+}
+.search{
+  background-color: #EFEEEE;
+  border: none;
+  border-radius: 30px;
+  padding: 16px 34px 16px 54px;
+  font-weight: 700;
+  font-size: 17px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  width: 200px;
+
+  
+}
+.wrapper-search{
+  position: relative;
+  margin-left: auto;
+  
+  width: fit-content;
+}
+.ic-search{
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu{
+  height: 200px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: -100px;
+  display: flex;
+  align-items: center;
+}
+.card-menu{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.wrapper-ic-menu{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #FFBA33;
+}
+.menu-count{
+  font-size: 25px;
+  font-weight: 700px;
+  font-family: 'Rubik', sans-serif; 
+  color: #0B132A;
+  margin-bottom: 10px;
+  line-height: 8px;
+}
+.menu-title{
+  font-size: 20px;
+  font-weight: 400;
+  color: #4F5665;
+}
+.wrapper-ic-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line-right{
+  border-right: 2px solid #EEEFF2;
+  height: 140px;
+}
+.wrapper-img-team{
+  width: 533px;
+  height: 417px;
+}
+.wrapper-img-team img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
